@@ -22,7 +22,7 @@ ve kredi politikaları üzerinden karar verilmesi adımlarını kapsamaktadır. 
 - Yetkili revizyon süreci (maker-checker prensibi)  
 
 📄 **Dokümanlar:**  
-- [Gereksinim Dokümanı (BR/FR/NFR)](./Kredi-Degerlendirme-Modulu/Kredi_Degerlendirme_Modulu-GereksinimDokumani.docx)  
+- [Gereksinim Dokümanı (BR/FR/NFR)](./Kredi-Degerlendirme-Modulu/GereksinimDokumani.docx)  
 - [BPMN Süreç Akışı](./Kredi-Degerlendirme-Modulu/Kredi_Degerlendirme_BPMN.pdf)  
 - [ERD / Veri Modeli](./Kredi-Degerlendirme-Modulu/ERD.png)  
 
