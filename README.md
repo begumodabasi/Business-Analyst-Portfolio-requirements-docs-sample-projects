@@ -20,7 +20,7 @@
 
 ## 🌟 Hakkımda  
 - 10+ yıl bankacılık ve finans deneyimi  
-- İş analisti ve veri analisti rollerine geçiş sürecindeyim  
+- İş analisti/veri analisti rollerine geçiş sürecindeyim  
 - Uluslararası İş Analizi Metodolojisi ve Teknikleri, Agile Proje Yönetimi, Yazılım Test Uzmanlığına Giriş ve SQL sertifikalarım bulunmakta olup, Phyton, Power BI, SAP ERP eğitimlerim devam etmektedir.
 
 ---
