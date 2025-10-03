@@ -7,6 +7,7 @@
    - Gereksinim Dokümanı  (BRD/FRD)
    - Süreç Akış Diyagramı  (BPMN/UML)
    - User Stories
+   - -ERD/Veri Modeli
   
 2. **Veri Analizi (SQL / Power BI)**  
    - Örnek veri setleri üzerinde SQL sorguları  
