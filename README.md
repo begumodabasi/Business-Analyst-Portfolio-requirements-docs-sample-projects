@@ -31,46 +31,6 @@ ve kredi politikaları üzerinden karar verilmesi adımlarını kapsamaktadır. 
 
 ---
 
-## 📌 Proje 2: [Başlık buraya]
-
-**Amaç:** …  
-**Kapsam:** …  
-
-📄 **Dokümanlar:**  
-- [Gereksinim Dokümanı](./Proje2/Dokuman.docx)  
-- [BPMN Süreç Akışı](./Proje2/Diagram.pdf)  
-
-👤 **Rolüm:** İş Analisti  
-
----
-
-## 📌 Proje 3: [Başlık buraya]
-
-(Aynı formatı diğer projeler için de kullanabilirsiniz.)  
-
----
-
-# 📬 İletişim
-- **Begüm Aslıhan Odabaşı**  
-- 📧 begumasli.ozyalcin@gmail.com  
-- 📍 Konya, Türkiye  
-- 💼 [LinkedIn Profilim](https://www.linkedin.com/)  
-
-1. **Kredi Değerlendirme Modülü – Dijital Dönüşüm**
-Bu proje, ticari müşterilerin kredi başvurularını kredi değerlendirme modülünde dijital dönüşüm kapsamında ele alarak;
-- Onaylı mali tabloların OCR ile okunması,
-- Finansal rasyoların otomatik hesaplanması,
-- Risk puanının (1–10) üretilmesi,
-- Tapu & TSG entegrasyonlarının sağlanması süreçlerini kapsamaktadır.  
-   - Gereksinim Dokümanı  (BRD/FRD)
-   - Süreç Akış Diyagramı  (BPMN/UML)
-   - User Stories
-   - -ERD/Veri Modeli
-  
-3. **Veri Analizi (SQL / Power BI)**  
-   - Örnek veri setleri üzerinde SQL sorguları  
-   - Power BI dashboard görselleri  
-
 
 ## 🌟 Hakkımda  
 - 10+ yıl bankacılık ve finans deneyimi  
