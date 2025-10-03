@@ -24,7 +24,7 @@ ve kredi politikaları üzerinden karar verilmesi adımlarını kapsamaktadır. 
 📄 **Dokümanlar:**  
 - [Gereksinim Dokümanı (BR/FR/NFR)](./Kredi_Degerlendirme_Modulu.docx)
 - [Gereksinim Dokümanı (BR/FR/NFR)](./Kredi_Degerlendirme_Modulu.pdf)
-- [BPMN Süreç Akışı](./Kredi-Degerlendirme-Modulu/Kredi_Degerlendirme_BPMN.pdf)  
+- [BPMN Süreç Akışı](./BPMN.pdf)  
 - [ERD / Veri Modeli](./Kredi-Degerlendirme-Modulu/ERD.png)  
 
 👤 **Rolüm:** İş Analisti (dokümanları tek başıma hazırladım)
