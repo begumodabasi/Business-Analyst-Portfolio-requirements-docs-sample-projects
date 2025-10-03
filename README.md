@@ -1,2 +1,28 @@
 # Business-Analyst-Portfolio-requirements-docs-sample-projects
 İş Analisti Portföyü – Gereksinim dokümanı, süreç akışı, veri analizi örnekleri
+
+## 📂 İçerik  
+
+1. **Gereksinim Dokümanları (BRD/FRD)**  
+   - Online Kredi Başvuru Sistemi (örnek proje)  
+
+2. **Süreç Akış Diyagramları (BPMN/UML)**  
+   - Kredi Başvuru Süreci  
+
+3. **User Story & Acceptance Criteria**  
+   - Agile formatında örnek kullanıcı hikayeleri  
+
+4. **Veri Analizi (SQL / Power BI)**  
+   - Örnek veri setleri üzerinde SQL sorguları  
+   - Power BI dashboard görselleri  
+
+---
+
+## 🌟 Hakkımda  
+- 10+ yıl bankacılık ve finans deneyimi  
+- İş analisti ve veri analisti rollerine geçiş sürecindeyim  
+- SQL, Python, Power BI ve ERP/CRM alanında eğitimler alıyorum  
+
+---
+
+📌 Not: Buradaki dokümanlar eğitim amaçlıdır, gizli kurumsal bilgi içermez.  
