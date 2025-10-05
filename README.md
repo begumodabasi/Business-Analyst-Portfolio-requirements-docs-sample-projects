@@ -31,6 +31,25 @@ ve kredi politikaları üzerinden karar verilmesi adımlarını kapsamaktadır. 
 
 ---
 
+## 📌 Proje 2: Kredi Başvuruları Veri Analizi ve Raporlama
+
+**Proje Özeti**:Ticari kredi başvurularının durumunu analiz etmek ve raporlamak amacıyla hazırladığım mini proje. 
+SQL Server üzerinde Customers, Applications ve Payments tablolarını oluşturdum, test verileri ile sorgular çalıştırdım. 
+Onay/Ret oranları, bölgelere göre başvuru dağılımları ve aylık trendler analiz edilerek Excel/Power BI üzerinde görselleştirdim.
+Proje, iş analizi bakış açısıyla veri modelleme, gereksinim belirleme ve raporlama becerilerini göstermektedir.
+## İçerikler
+- **Gereksinim Özeti**: Temel iş ihtiyaçları ve veri modeli (docs klasöründe).
+- **SQL Sorguları**: Başvuruların onay/red oranı, müşteri bölgelerine göre dağılımı, geciken ödemeler (sql klasöründe).
+- **Test Senaryoları**: SQL kullanılarak iş kurallarının doğrulanması (sql klasöründe).
+- **Raporlar**: SQL çıktılarının Excel/Power BI ile görselleştirilmesi (reports klasöründe).
+
+## Kullanılan Teknolojiler
+- SQL (MSSQL/PostgreSQL uyumlu sorgular)
+- Excel / Power BI (raporlama için)
+  
+👤 **Rolüm:** İş Analisti (dokümanları tek başıma hazırladım)
+
+---
 
 ## 🌟 Hakkımda  
 - 10+ yıl bankacılık ve finans deneyimi  
