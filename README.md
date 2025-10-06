@@ -47,38 +47,13 @@ Kredi başvurularının;
 - Geciken ödeme detayları gösterilmiştir.
 **Not:** Bu SQL sorguları demo bir şemaya göre hazırlanmıştır. Portföy amacıyla paylaşıldığından, birebir çalıştırılabilir olmayabilir.  
 Amaç, veri analizi ve iş kurallarını kontrol etme yaklaşımını göstermektir.
+Projede hazırlanan SQL sorgularının çıktıları Excel üzerinde PivotTable ve grafiklerle görselleştirilmiştir.👉 reports klasörüne göz atın](reports/)
 
-Projede hazırlanan SQL sorgularının çıktıları Excel üzerinde PivotTable ve grafiklerle görselleştirilmiştir.  
-
-### 1️⃣ Onay/Ret Oranı
-Kredi başvurularının onay, bekleme ve reddedilme oranlarını göstermektedir.  
-![Onay/Red Oranı](reports/Onay_Ret_Orani.png)
-
----
-
-### 2️⃣ Bölgelere Göre Kredi Başvuruları
-Başvuruların farklı bölgelere dağılımını göstermektedir.  
-![Bölgelere Göre Kredi Başvuruları](reports/apps_by_region.png)
-
----
-
-### 3️⃣ Kredi Türlerine Göre Ortalama Kredi Tutarı
-İhtiyaç, Konut ve Ticari kredi türlerine göre ortalama başvuru tutarları.  
-![Kredi Türlerine Göre Ortalama Kredi Tutarı](reports/avg_amount_by_type.png)
-
----
-
-### 4️⃣ Müşteri Bazında Ödeme Gecikmeleri
-Müşterilerin toplam geciken ödeme sayıları ve detayları.  
-
-- Genel dağılım  
-  ![Müşteri Bazında Gecikmeler](reports/customer_delayed_payments.png)  
-
-- Detaylı tablo görünümü  
-  ![Müşteri Bazında Detaylı](reports/customer_delayed_payments2.png)
-- **Test Senaryoları**: SQL kullanılarak iş kurallarının doğrulanması.
+- ## Test Senaryoları**: SQL kullanılarak iş kurallarının doğrulanması.
 **Not: Bu test sorguları demo şemaya göre hazırlanmıştır. Portföy amacıyla paylaşıldığından, birebir çalıştırılabilir olmayabilir. Amaç, veri analizi ve iş kurallarını kontrol etme yaklaşımını göstermektir.
-- **Raporlar**: SQL çıktılarının Excel/Power BI ile görselleştirilmesi .
+  [Test Senaryolarını Görüntüle](test_cases/test_cases.md)
+
+- ## Raporlar**: SQL çıktılarının Excel/Power BI ile görselleştirilmesi .👉 [reports klasörüne göz atın](reports/)
 
 ## Kullanılan Teknolojiler
 - SQL (MSSQL/PostgreSQL uyumlu sorgular)
