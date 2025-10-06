@@ -39,6 +39,7 @@ Onay/Ret oranları, bölgelere göre başvuru dağılımları ve aylık trendler
 Proje, iş analizi bakış açısıyla veri modelleme, gereksinim belirleme ve raporlama becerilerimi göstermektedir.
 ## İçerikler
 - [Gereksinim Özeti](Kredi_Basvurulari_Analizi_Gereksinim_Ozeti.pdf)
+  
 - ## 📝 SQL Analiz Sorguları
 [SQL Analiz Sorguları](analysis_queries.sql)  
 Kredi başvurularının;
@@ -46,13 +47,12 @@ Kredi başvurularının;
 - Bölgelere göre dağılımı
 - Geciken ödeme detayları gösterilmiştir.
 **Not:** Bu SQL sorguları demo bir şemaya göre hazırlanmıştır. Portföy amacıyla paylaşıldığından, birebir çalıştırılabilir olmayabilir.  
-Amaç, veri analizi ve iş kurallarını kontrol etme yaklaşımını göstermektir.
-Projede hazırlanan SQL sorgularının çıktıları Excel üzerinde PivotTable ve grafiklerle görselleştirilmiştir.👉 reports klasörüne göz atın](reports/)
+Amaç, veri analizi ve iş kurallarını kontrol etme yaklaşımını göstermektir. Projede hazırlanan SQL sorgularının çıktıları Excel üzerinde PivotTable ve grafiklerle görselleştirilmiştir.👉 reports klasörüne göz atın](reports/)
 
-- ## Test Senaryoları**: SQL kullanılarak iş kurallarının doğrulanması.
-**Not: Bu test sorguları demo şemaya göre hazırlanmıştır. Portföy amacıyla paylaşıldığından, birebir çalıştırılabilir olmayabilir. Amaç, veri analizi ve iş kurallarını kontrol etme yaklaşımını göstermektir.
-  [Test Senaryolarını Görüntüle](test_cases/test_cases.md)
-
+- ## Test Senaryoları**:[Test Senaryolarını Görüntüle](test_cases/test_cases.md)
+ - SQL kullanılarak iş kurallarının doğrulanması.
+**Not**: Bu test sorguları demo şemaya göre hazırlanmıştır. Portföy amacıyla paylaşıldığından, birebir çalıştırılabilir olmayabilir. Amaç, veri analizi ve iş kurallarını kontrol etme yaklaşımını göstermektir.
+  
 - ## Raporlar**: SQL çıktılarının Excel/Power BI ile görselleştirilmesi .👉 [reports klasörüne göz atın](reports/)
 
 ## Kullanılan Teknolojiler
