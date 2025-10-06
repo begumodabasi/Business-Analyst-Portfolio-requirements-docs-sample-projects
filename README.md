@@ -39,7 +39,7 @@ Onay/Ret oranları, bölgelere göre başvuru dağılımları ve aylık trendler
 Proje, iş analizi bakış açısıyla veri modelleme, gereksinim belirleme ve raporlama becerilerini göstermektedir.
 ## İçerikler
 - [Gereksinim Özeti](Kredi_Basvurulari_Analizi_Gereksinim_Ozeti.pdf)
-- [SQL Analiz Sorguları](sql/analysis_queries.sql) Başvuruların onay/red oranı, müşteri bölgelerine göre dağılımı, geciken ödemeler .
+- [SQL Analiz Sorguları](analysis_queries.sql) Başvuruların onay/red oranı, müşteri bölgelerine göre dağılımı, geciken ödemeler .
 - **Test Senaryoları**: SQL kullanılarak iş kurallarının doğrulanması.
 **Not: Bu test sorguları demo şemaya göre hazırlanmıştır. Portföy amacıyla paylaşıldığından, birebir çalıştırılabilir olmayabilir. Amaç, veri analizi ve iş kurallarını kontrol etme yaklaşımını göstermektir.
 - **Raporlar**: SQL çıktılarının Excel/Power BI ile görselleştirilmesi .
