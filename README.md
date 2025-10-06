@@ -42,7 +42,7 @@ Proje, iş analizi bakış açısıyla veri modelleme, gereksinim belirleme ve r
 - ## 📝 SQL Analiz Sorguları
 [SQL Analiz Sorguları](analysis_queries.sql)  
 Kredi başvurularının;
-- Onay/Red oranları
+- Onay/Ret oranları
 - Bölgelere göre dağılımı
 - Geciken ödeme detayları gösterilmiştir.
 **Not:** Bu SQL sorguları demo bir şemaya göre hazırlanmıştır. Portföy amacıyla paylaşıldığından, birebir çalıştırılabilir olmayabilir.  
