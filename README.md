@@ -38,7 +38,7 @@ SQL Server üzerinde Customers, Applications ve Payments tablolarını oluşturd
 Onay/Ret oranları, bölgelere göre başvuru dağılımları ve aylık trendler analiz edilerek Excel/Power BI üzerinde görselleştirdim.
 Proje, iş analizi bakış açısıyla veri modelleme, gereksinim belirleme ve raporlama becerilerini göstermektedir.
 ## İçerikler
-- [Gereksinim Özeti] (Kredi_Basvurulari_Analizi_Gereksinim_Ozeti.pdf)
+- [Gereksinim Özeti](Kredi_Basvurulari_Analizi_Gereksinim_Ozeti.pdf)
 - **SQL Sorguları**: Başvuruların onay/red oranı, müşteri bölgelerine göre dağılımı, geciken ödemeler .
 - **Test Senaryoları**: SQL kullanılarak iş kurallarının doğrulanması .
 - **Raporlar**: SQL çıktılarının Excel/Power BI ile görselleştirilmesi .
