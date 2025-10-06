@@ -40,7 +40,8 @@ Proje, iş analizi bakış açısıyla veri modelleme, gereksinim belirleme ve r
 ## İçerikler
 - [Gereksinim Özeti](Kredi_Basvurulari_Analizi_Gereksinim_Ozeti.pdf)
 - **SQL Sorguları**: Başvuruların onay/red oranı, müşteri bölgelerine göre dağılımı, geciken ödemeler .
-- **Test Senaryoları**: SQL kullanılarak iş kurallarının doğrulanması .
+- **Test Senaryoları**: SQL kullanılarak iş kurallarının doğrulanması.
+**Not: Bu test sorguları demo şemaya göre hazırlanmıştır. Portföy amacıyla paylaşıldığından, birebir çalıştırılabilir olmayabilir. Amaç, veri analizi ve iş kurallarını kontrol etme yaklaşımını göstermektir.
 - **Raporlar**: SQL çıktılarının Excel/Power BI ile görselleştirilmesi .
 
 ## Kullanılan Teknolojiler
