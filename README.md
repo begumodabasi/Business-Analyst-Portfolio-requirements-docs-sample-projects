@@ -64,7 +64,7 @@ Başvuruların farklı bölgelere dağılımını göstermektedir.
 
 ### 3️⃣ Kredi Türlerine Göre Ortalama Kredi Tutarı
 İhtiyaç, Konut ve Ticari kredi türlerine göre ortalama başvuru tutarları.  
-![Kredi Türlerine Göre Ortalama Kredi Tutarı](reports/kredi_turleri_ortalama.png)
+![Kredi Türlerine Göre Ortalama Kredi Tutarı](reports/avg_amount_bt_type.png)
 
 ---
 
