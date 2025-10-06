@@ -35,8 +35,8 @@ ve kredi politikaları üzerinden karar verilmesi adımlarını kapsamaktadır. 
 
 **Proje Özeti**:Ticari kredi başvurularının durumunu analiz etmek ve raporlamak amacıyla hazırladığım mini proje. 
 SQL Server üzerinde Customers, Applications ve Payments tablolarını oluşturdum, test verileri ile sorgular çalıştırdım. 
-Onay/Ret oranları, bölgelere göre başvuru dağılımları ve aylık trendler analiz edilerek Excel/Power BI üzerinde görselleştirdim.
-Proje, iş analizi bakış açısıyla veri modelleme, gereksinim belirleme ve raporlama becerilerini göstermektedir.
+Onay/Ret oranları, bölgelere göre başvuru dağılımları ve aylık trendler analiz edilerek Excel/Power BI üzerinde görselleştirildi.
+Proje, iş analizi bakış açısıyla veri modelleme, gereksinim belirleme ve raporlama becerilerimi göstermektedir.
 ## İçerikler
 - [Gereksinim Özeti](Kredi_Basvurulari_Analizi_Gereksinim_Ozeti.pdf)
 - ## 📝 SQL Analiz Sorguları
