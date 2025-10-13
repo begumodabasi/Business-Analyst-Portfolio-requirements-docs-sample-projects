@@ -3,7 +3,7 @@
 Bu dosyada, projede kullanılan SQL sorgularına karşılık gelen iş kurallarını doğrulayan test senaryoları listelenmektedir.  
 Amaç, SQL sorgularının iş kurallarına uygunluğunu kontrol etmek ve beklenen çıktıları doğrulamaktır.  
 
----
+--
 
 ## 1. Onay / Red Oranı
 | ID   | Senaryo Açıklaması | Girdi | Beklenen Çıktı |
