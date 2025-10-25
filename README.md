@@ -92,7 +92,8 @@ Gerçek bir iş analisti veya veri analisti projesi gibi kurgulanmış olup,
 | **Draw.io (ERD)** | Veri modeli diyagramı | [🗺️ ERD Diagram](crm_erd_diagram.drawio.jpg) |
 
 
-## 🧩 **Entity Relationship Diagram (ERD)**![CRM ERD Diagram](crm_erd_diagram.drawio.jp)
+## 🧩 **Entity Relationship Diagram (ERD)**![🗺️ ERD Diagram](crm_erd_diagram.drawio.jpg)
+
 Bu diyagram, mini CRM sistemindeki veri modelini ve tablolar arası ilişkileri gösterir.  
 Toplamda 4 ana tablo vardır: **Customers, Applications, Reviews, Tickets**
 
