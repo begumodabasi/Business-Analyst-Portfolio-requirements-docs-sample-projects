@@ -65,14 +65,84 @@ SQL çıktılarının Excel/Power BI ile görselleştirilmesi.
 - Excel / Power BI (raporlama için)
 
 👤 **Rolüm:** İş Analisti (dokümanları tek başıma hazırladım)
+
 ---
+## 📌 Proje 3: Kredi Yaşam Döngüsü Mini CRM Projesi - CreditFlow CRM Demo Project
+
+**Proje Özeti**: Bu proje, müşteri başvurularının, finansal inceleme ve destek taleplerinin uçtan uca yönetimini sağlayan mini bir CRM sistemidir.
+-Proje kapsamında:  
+- **Müşteri başvuruları (Applications)**  
+- **Finansal incelemeler (Reviews)**  
+- **Müşteri destek talepleri (Tickets)**  
+- **Müşteri bilgileri (Customers)**  
+yönetilmekte ve aynı zamanda SQL tabanlı veri analizi yapılmaktadır.  
+
+Proje, **SQL** ve **CRM (HubSpot)** arasında köprü görevi görür:  
+Veritabanındaki başvuru ve müşteri kayıtları, HubSpot üzerinde satış (Sales) ve destek (Service) süreçleri olarak modellenmiştir.  
+
+Gerçek bir iş analisti veya veri analisti projesi gibi kurgulanmış olup,  
+**iş süreçleri – veri modeli – KPI raporlaması – CRM pipeline entegrasyonu** bileşenlerini içermektedir.
+
+## ⚙️ **Kullanılan Teknolojiler**
+
+| Teknoloji | Amaç |
+|------------|------|
+| **MS SQL Server (T-SQL)** | Veri tabanı, KPI hesaplamaları | (docs/Kpi_queries_report.sql) (docs/T-sql_schema.sql)
+| **HubSpot CRM (Free Demo)** | Satış ve müşteri destek süreçleri | (docs/hubspot_pipeline_stages.png) (docs/hubspot_credit_pipeline_filled) (docs/hubspot_tickets_demo)
+| **Draw.io (ERD)** | Veri modeli diyagramı | (docs/crm_erd_diagram.drawio.png)
+| **GitHub** | Portföy ve versiyon takibi |
+
+
+## 🧩 **Entity Relationship Diagram (ERD)**![CRM ERD Diagram](docs/crm_erd_diagram.drawio.png)
+Bu diyagram, mini CRM sistemindeki veri modelini ve tablolar arası ilişkileri gösterir.  
+Toplamda 4 ana tablo vardır: **Customers, Applications, Reviews, Tickets**
+
+📊 **İlişkiler:**
+- 1 Customer → N Applications  
+- 1 Application → N Reviews  
+- 1 Customer → N Tickets  
+- 1 Application → N Tickets  
+
+
+## 🗃️ **Veritabanı (T-SQL) Yapısı**
+
+**1️⃣ Ana tablolar:**
+- `customers`
+- `applications`
+- `reviews`
+- `tickets`
+
+**2️⃣ KPI Raporlama
+
+KPI sorguları `sql/03_kpi_queries_reporting.sql` dosyasında yer almaktadır.  
+Aşağıda örnek bir sorgu gösterilmiştir:
+
+```sql
+-- Onay Oranı (Approval Rate)
+SELECT 
+  CAST(100.0 * SUM(CASE
+WHEN status='APPROVED' THEN 1
+ELSE 0
+END) /
+  NULLIF(COUNT(*),0) AS DECIMAL(5,2)) AS approval_rate_pct
+FROM dbo.applications;
+
+Diğer KPI senaryoları:
+-Ortalama değerlendirme süresi (gün)
+-Ret oranı (%)
+-SLA içinde kapanan ticket oranı (%)
+
 
 ## 🌟 Hakkımda  
-- 10+ yıl bankacılık ve finans deneyimi  
-- İş analisti/veri analisti rollerine geçiş sürecindeyim  
-- Uluslararası İş Analizi Metodolojisi ve Teknikleri, Agile Proje Yönetimi, Yazılım Test Uzmanlığına Giriş ve SQL sertifikalarım bulunmakta olup, Phyton, Power BI, SAP ERP eğitimlerim devam etmektedir.
+Bilgisayar Mühendisliği mezunuyum ve 10+ yıl süren bankacılık/finans deneyimimin ardından  
+teknoloji odaklı analist rollerine (Business Analyst & Data Analyst) geçiş yapıyorum.  
 
+- Bankacılıkta süreç analizi, finansal raporlama ve kredi risk değerlendirme alanlarında deneyimliyim.  
+- Şu anda CRM/ERP sistemleri, SQL, Python ve Power BI üzerine uygulamalı projeler geliştiriyorum.  
+- Uluslararası İş Analizi Metodolojisi, Agile Proje Yönetimi, Yazılım Test Uzmanlığı ve SQL sertifikalarına sahibim.  
+- SAP ERP, UiPath ve veri analitiği eğitimlerim devam etmektedir.   
 ---
+
 🔗 Contact
 
 LinkedIn: https://www.linkedin.com/in/begum-aslihan-odabasi
