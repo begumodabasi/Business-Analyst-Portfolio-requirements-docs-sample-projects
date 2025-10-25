@@ -83,14 +83,16 @@ Veritabanındaki başvuru ve müşteri kayıtları, HubSpot üzerinde satış (S
 Gerçek bir iş analisti veya veri analisti projesi gibi kurgulanmış olup,  
 **iş süreçleri – veri modeli – KPI raporlaması – CRM pipeline entegrasyonu** bileşenlerini içermektedir.
 
+## ⚙️ Kullanılan Teknolojiler
+
 | Teknoloji | Amaç | Dosya / Link |
 |------------|------|--------------|
-| **MS SQL Server (T-SQL)** | Veri tabanı, KPI hesaplamaları | [📄 KPI Queries](docs/Kpi_queries_report.sql) · [🧩 Schema](docs/T-sql_schema.sql) |
-| **HubSpot CRM (Free Demo)** | Satış ve müşteri destek süreçleri | [📊 Pipeline Stages](docs/hubspot_pipeline_stages.png) · [💼 Deals Pipeline](docs/hubspot_credit_pipeline_filled.png) · [🎫 Tickets Demo](docs/hubspot_tickets_demo.png) |
-| **Draw.io (ERD)** | Veri modeli diyagramı | [🗺️ ERD Diagram](docs/crm_erd_diagram.drawio.png) |
+| **MS SQL Server (T-SQL)** | Veri tabanı, KPI hesaplamaları | [📄 KPI Queries](Kpi_queries_report.sql) · [🧩 Schema](T-sql_schema.sql) |
+| **HubSpot CRM (Free Demo)** | Satış ve müşteri destek süreçleri | [📊 Pipeline Stages](hubspot_pipeline_stages.png) · [💼 Deals Pipeline](hubspot_credit_pipeline_filled.png) · [🎫 Tickets Demo](hubspot_tickets_demo.png) |
+| **Draw.io (ERD)** | Veri modeli diyagramı | [🗺️ ERD Diagram](crm_erd_diagram.drawio.jpg) |
 
 
-## 🧩 **Entity Relationship Diagram (ERD)**![CRM ERD Diagram](docs/crm_erd_diagram.drawio.jpg)
+## 🧩 **Entity Relationship Diagram (ERD)**![CRM ERD Diagram](crm_erd_diagram.drawio.jp)
 Bu diyagram, mini CRM sistemindeki veri modelini ve tablolar arası ilişkileri gösterir.  
 Toplamda 4 ana tablo vardır: **Customers, Applications, Reviews, Tickets**
 
@@ -111,7 +113,7 @@ Toplamda 4 ana tablo vardır: **Customers, Applications, Reviews, Tickets**
 
 **2️⃣ KPI Raporlama
 
-KPI sorguları `sql/03_kpi_queries_reporting.sql` dosyasında yer almaktadır.  
+KPI sorguları (Kpi_queries_report.sql) dosyasında yer almaktadır.  
 Aşağıda örnek bir sorgu gösterilmiştir:
 
 ```sql
