@@ -83,13 +83,11 @@ Veritabanındaki başvuru ve müşteri kayıtları, HubSpot üzerinde satış (S
 Gerçek bir iş analisti veya veri analisti projesi gibi kurgulanmış olup,  
 **iş süreçleri – veri modeli – KPI raporlaması – CRM pipeline entegrasyonu** bileşenlerini içermektedir.
 
-## ⚙️ **Kullanılan Teknolojiler**
-
 | Teknoloji | Amaç | Dosya / Link |
 |------------|------|--------------|
-| **MS SQL Server (T-SQL)** | Veri tabanı, KPI hesaplamaları | (docs/Kpi_queries_report.sql) (docs/T-sql_schema.sql)
-| **HubSpot CRM (Free Demo)** | Satış ve müşteri destek süreçleri | (docs/hubspot_pipeline_stages.png) (docs/hubspot_credit_pipeline_filled) (docs/hubspot_tickets_demo)
-| **Draw.io (ERD)** | Veri modeli diyagramı | (docs/crm_erd_diagram.drawio.jpg)
+| **MS SQL Server (T-SQL)** | Veri tabanı, KPI hesaplamaları | [📄 KPI Queries](docs/Kpi_queries_report.sql) · [🧩 Schema](docs/T-sql_schema.sql) |
+| **HubSpot CRM (Free Demo)** | Satış ve müşteri destek süreçleri | [📊 Pipeline Stages](docs/hubspot_pipeline_stages.png) · [💼 Deals Pipeline](docs/hubspot_credit_pipeline_filled.png) · [🎫 Tickets Demo](docs/hubspot_tickets_demo.png) |
+| **Draw.io (ERD)** | Veri modeli diyagramı | [🗺️ ERD Diagram](docs/crm_erd_diagram.drawio.png) |
 
 
 ## 🧩 **Entity Relationship Diagram (ERD)**![CRM ERD Diagram](docs/crm_erd_diagram.drawio.jpg)
