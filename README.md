@@ -89,10 +89,10 @@ Gerçek bir iş analisti veya veri analisti projesi gibi kurgulanmış olup,
 |------------|------|--------------|
 | **MS SQL Server (T-SQL)** | Veri tabanı, KPI hesaplamaları | (docs/Kpi_queries_report.sql) (docs/T-sql_schema.sql)
 | **HubSpot CRM (Free Demo)** | Satış ve müşteri destek süreçleri | (docs/hubspot_pipeline_stages.png) (docs/hubspot_credit_pipeline_filled) (docs/hubspot_tickets_demo)
-| **Draw.io (ERD)** | Veri modeli diyagramı | (docs/crm_erd_diagram.drawio.png)
+| **Draw.io (ERD)** | Veri modeli diyagramı | (docs/crm_erd_diagram.drawio.jpg)
 
 
-## 🧩 **Entity Relationship Diagram (ERD)**![CRM ERD Diagram](docs/crm_erd_diagram.drawio.png)
+## 🧩 **Entity Relationship Diagram (ERD)**![CRM ERD Diagram](docs/crm_erd_diagram.drawio.jpg)
 Bu diyagram, mini CRM sistemindeki veri modelini ve tablolar arası ilişkileri gösterir.  
 Toplamda 4 ana tablo vardır: **Customers, Applications, Reviews, Tickets**
 
