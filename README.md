@@ -134,6 +134,117 @@ Diğer KPI senaryoları:
 -SLA içinde kapanan ticket oranı (%)
 
 
+## 📌 Proje 4: ERP Süreç Akışı – Satın Alma & Finans Modülü Analizi (Odoo Demo)
+
+### 🌟 Proje Amacı
+
+Bu proje, Odoo ERP sistemi üzerinde **Satın Alma (Purchase)** ve **Finans (Accounting)** modüllerinin entegrasyonunu analiz etmek amacıyla hazırlanmıştır.
+Süreç, bir ürünün tedarik edilmesinden faturanın muhasebeleştirilmesine kadar olan tüm aşamaları örnek ekran görüntüleriyle göstermektedir.
+
+---
+
+### ⚙️ Kullanılan Modüller
+
+* **Satınalma (Purchase)**
+* **Stok (Inventory)**
+* **Muhasebe (Accounting)**
+* **Ürün Yönetimi (Product Management)**
+
+---
+
+### 🔁 Süreç Akışı
+
+1. **Ürün Kartı Oluşturma**
+
+   * Laptop Lenovo Thinkbook ürünü oluşturuldu.
+   * Satış, satınalma ve stok takibi aktif hale getirildi.
+     📁 *`01_Product.png`*
+     📝 *“Ürün ERP sistemine tanımlandı ve satış-satınalma süreçlerine açıldı.”*
+
+2. **Tedarikçi Tanımlama**
+
+   * Tedarikçi olarak *Teknomarket A.Ş.* eklendi.
+     📁 *`02_Vendor_Creation.png`*
+     📝 *“Satınalma sürecinde kullanılacak tedarikçi bilgisi oluşturuldu.”*
+
+3. **Alım Teklif Talebi (RFQ) Oluşturma**
+
+   * Ürün için teklif talebi (P00001) oluşturuldu ve e-posta ile gönderildi.
+     📁 *`03_RFQ_Creation.png`*
+     📝 *“Tedarikçiye fiyat teklifi isteği gönderildi.”*
+
+4. **Satınalma Siparişi (Purchase Order) Onayı**
+
+   * Teklif kabul edilerek sipariş onaylandı.
+     📁 *`04_Purchase_Confirmed.png`*
+     📝 *“Teklif onaylandı, satınalma siparişi oluşturuldu.”*
+
+5. **Mal Kabul (Goods Receipt)**
+
+   * Tedarikçiden gelen ürün teslim alındı, stoklara işlendi.
+     📁 *`05_Goods_Receipt_Done.png`*
+     📝 *“Satınalma emri sonucu tedarikçiden gelen ürün başarıyla teslim alındı.”*
+
+6. **Tedarikçi Faturası (Vendor Bill)**
+
+   * Satınalma siparişine bağlı olarak tedarikçi faturasi oluşturuldu.
+     📁 *`06_billing.png`*
+     📝 *“Tedarikçi faturasi oluşturulmuş, ürün maliyetleri finans modülüne aktarılmıştır.”*
+
+7. **Yevmiye Kayıtları (Journal Entries)**
+
+   * Fatura onaylandığında otomatik muhasebe kaydı oluşturuldu.
+     📁 *`07_YevmiyeKaydi.png`*
+     📝 *“150000 Malzeme, 191000 İndirilecek KDV, 320000 Satıcılar hesaplarına otomatik kayıt yapıldı.”*
+
+---
+
+### 📊 Süreç Sonucu
+
+* Satınalma süreci başarıyla tamamlanmış,
+* Stok miktarı güncellenmiş,
+* Muhasebe modülüne otomatik yevmiye kaydı yansımıştır.
+
+Bu sayede **Satınalma – Stok – Muhasebe** modülleri arasındaki **entegrasyon doğrulanmıştır.**
+
+---
+
+### 💡 Kazanımlar
+
+Bu proje kapsamında:
+
+* ERP süreç akışı oluşturma ve analiz etme,
+* Odoo üzerinde modüller arası veri entegrasyonu gözlemleme,
+* Satınalma sürecinin finansal etkilerini inceleme,
+* İş analizi dokümantasyonu hazırlama
+  yetkinlikleri geliştirilmiştir.
+
+---
+
+### 📁 Dosya Yapısı
+
+```
+/ERP_Purchase_Finance_Analysis/
+│
+├── README.md
+├── 01_Product.png
+├── 02_Vendor_Creation.png
+├── 03_RFQ_Creation.png
+├── 04_Purchase_Confirmed.png
+├── 05_Goods_Receipt_Done.png
+├── 06_billing.png
+└── 07_YevmiyeKaydi.png
+```
+
+---
+
+### ✨ Hazırlayan
+
+👤 **Begüm Aslıhan Odabaşı**
+📍 *ERP & CRM Business Analyst (Transitioning)*
+🔗 [LinkedIn Profilim](https://www.linkedin.com/in/begum-aslihan-odabasi)
+🔗 [GitHub Portfolio](https://github.com/begumodabasi)
+
 ## 🌟 Hakkımda  
 Bilgisayar Mühendisliği mezunuyum ve 10+ yıl süren bankacılık/finans deneyimimin ardından  
 teknoloji odaklı analist rollerine (Business Analyst & Data Analyst) geçiş yapıyorum.  
