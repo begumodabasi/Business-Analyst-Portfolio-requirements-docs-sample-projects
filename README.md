@@ -147,43 +147,43 @@ Süreç, bir ürünün tedarik edilmesinden faturanın muhasebeleştirilmesine k
 
    * Laptop Lenovo Thinkbook ürünü oluşturuldu.
    * Satış, satınalma ve stok takibi aktif hale getirildi.
-     📁 *`01_Product.png`*
+   [📁 01_Product.png](01_Product.png)
      📝 *“Ürün ERP sistemine tanımlandı ve satış-satınalma süreçlerine açıldı.”*
 
 2. **Tedarikçi Tanımlama**
 
    * Tedarikçi olarak *Teknomarket A.Ş.* eklendi.
-     📁 *`02_Vendor_Creation.png`*
+     [📁 02_Vendor_Creation.png](02_Vendor_Creation.png)
      📝 *“Satınalma sürecinde kullanılacak tedarikçi bilgisi oluşturuldu.”*
 
 3. **Alım Teklif Talebi (RFQ) Oluşturma**
 
    * Ürün için teklif talebi (P00001) oluşturuldu ve e-posta ile gönderildi.
-     📁 *`03_RFQ_Creation.png`*
+      [📁 03_RFQ_Creation.png](03_RFQ_Creation.png)
      📝 *“Tedarikçiye fiyat teklifi isteği gönderildi.”*
 
 4. **Satınalma Siparişi (Purchase Order) Onayı**
 
    * Teklif kabul edilerek sipariş onaylandı.
-     📁 *`04_Purchase_Confirmed.png`*
+      [📁 04_Purchase_Confirmed.png](04_Purchase_Confirmed.png)
      📝 *“Teklif onaylandı, satınalma siparişi oluşturuldu.”*
 
 5. **Mal Kabul (Goods Receipt)**
 
    * Tedarikçiden gelen ürün teslim alındı, stoklara işlendi.
-     📁 *`05_Goods_Receipt_Done.png`*
+      [📁 05_Goods_Receipt_Done.png](05_Goods_Receipt_Done.png)
      📝 *“Satınalma emri sonucu tedarikçiden gelen ürün başarıyla teslim alındı.”*
 
 6. **Tedarikçi Faturası (Vendor Bill)**
 
    * Satınalma siparişine bağlı olarak tedarikçi faturasi oluşturuldu.
-     📁 *`06_billing.png`*
+  [📁 06_billing.png](06_billing.png)
      📝 *“Tedarikçi faturasi oluşturulmuş, ürün maliyetleri finans modülüne aktarılmıştır.”*
 
 7. **Yevmiye Kayıtları (Journal Entries)**
 
    * Fatura onaylandığında otomatik muhasebe kaydı oluşturuldu.
-     📁 *`07_YevmiyeKaydi.png`*
+      [📁 07_YevmiyeKaydi.png](07_PYevmiyeKaydi.png)
      📝 *“150000 Malzeme, 191000 İndirilecek KDV, 320000 Satıcılar hesaplarına otomatik kayıt yapıldı.”*
 
 ---
@@ -210,19 +210,6 @@ Bu proje kapsamında:
 
 ---
 
-### 📁 Dosya Yapısı
-
-```
-/ERP_Purchase_Finance_Analysis/
-│
-├── README.md
-├── 01_Product.png
-├── 02_Vendor_Creation.png
-├── 03_RFQ_Creation.png
-├── 04_Purchase_Confirmed.png
-├── 05_Goods_Receipt_Done.png
-├── 06_billing.png
-└── 07_YevmiyeKaydi.png
 ```
 
 ---
