@@ -116,24 +116,12 @@ Toplamda 4 ana tablo vardır: **Customers, Applications, Reviews, Tickets**
 **2️⃣ KPI Raporlama
 
 KPI sorguları (Kpi_queries_report.sql) dosyasında yer almaktadır.  
-Aşağıda örnek bir sorgu gösterilmiştir:
-
-```sql
--- Onay Oranı (Approval Rate)
-SELECT 
-  CAST(100.0 * SUM(CASE
-WHEN status='APPROVED' THEN 1
-ELSE 0
-END) /
-  NULLIF(COUNT(*),0) AS DECIMAL(5,2)) AS approval_rate_pct
-FROM dbo.applications;
-
-Diğer KPI senaryoları:
+ KPI senaryoları:
 -Ortalama değerlendirme süresi (gün)
 -Ret oranı (%)
 -SLA içinde kapanan ticket oranı (%)
 
------------------------------------------------------------------------------
+---
 
 ## 📌 Proje 4: ERP Süreç Akışı – Satın Alma & Finans Modülü Analizi (Odoo Demo)
 
