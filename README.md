@@ -133,6 +133,7 @@ Diğer KPI senaryoları:
 -Ret oranı (%)
 -SLA içinde kapanan ticket oranı (%)
 
+-----------------------------------------------------------------------------
 
 ## 📌 Proje 4: ERP Süreç Akışı – Satın Alma & Finans Modülü Analizi (Odoo Demo)
 
