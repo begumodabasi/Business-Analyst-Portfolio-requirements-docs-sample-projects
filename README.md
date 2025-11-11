@@ -130,7 +130,6 @@ KPI sorguları (Kpi_queries_report.sql) dosyasında yer almaktadır.
 Bu proje, Odoo ERP sistemi üzerinde **Satın Alma (Purchase)** ve **Finans (Accounting)** modüllerinin entegrasyonunu analiz etmek amacıyla hazırlanmıştır.
 Süreç, bir ürünün tedarik edilmesinden faturanın muhasebeleştirilmesine kadar olan tüm aşamaları örnek ekran görüntüleriyle göstermektedir.
 
----
 
 ### ⚙️ Kullanılan Modüller
 
@@ -139,7 +138,13 @@ Süreç, bir ürünün tedarik edilmesinden faturanın muhasebeleştirilmesine k
 * **Muhasebe (Accounting)**
 * **Ürün Yönetimi (Product Management)**
 
----
+
+## 🧭 BPMN Process Flow – Purchase to Pay (P2P)
+
+Bu BPMN diyagramı, Odoo ERP sistemi üzerinde yürütülen satın alma sürecini (Purchase to Pay) göstermektedir.  
+Süreç; ürün ihtiyacının doğmasından, faturanın muhasebe kayıtlarına işlenmesine kadar olan tüm adımları içerir.
+
+![BPMN Process Flow](ERP_Process_Diagram.jpg)
 
 ### 🔁 Süreç Akışı
 
@@ -186,7 +191,6 @@ Süreç, bir ürünün tedarik edilmesinden faturanın muhasebeleştirilmesine k
       [📁 07_YevmiyeKaydi.png](07_PYevmiyeKaydi.png)
      📝 *“150000 Malzeme, 191000 İndirilecek KDV, 320000 Satıcılar hesaplarına otomatik kayıt yapıldı.”*
 
----
 
 ### 📊 Süreç Sonucu
 
@@ -196,7 +200,6 @@ Süreç, bir ürünün tedarik edilmesinden faturanın muhasebeleştirilmesine k
 
 Bu sayede **Satınalma – Stok – Muhasebe** modülleri arasındaki **entegrasyon doğrulanmıştır.**
 
----
 
 ### 💡 Kazanımlar
 
