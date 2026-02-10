@@ -238,7 +238,7 @@ Cep telefonu ticareti yapan bir işletme için Odoo demo ortamında örnek bir k
   - Model 17’de **Beyaz yok**
 
 ## Yaklaşım
-Senaryoyu 6 gereksinime böldüm, ilgili modülleri seçip Odoo’da konfigüre ettim ve küçük testlerle doğruladım. 
+Senaryoyu 6 gereksinime böldüm (`docs/Gereksinim_Dokumani.pdf`) , ilgili modülleri seçip Odoo’da konfigüre ettim ve küçük testlerle doğruladım. 
 
 ## Kullanılan Modüller
 - Web Sitesi / e-Ticaret
