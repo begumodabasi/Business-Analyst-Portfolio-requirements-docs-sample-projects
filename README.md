@@ -251,7 +251,6 @@ Senaryoyu 6 gereksinime böldüm [docs/Gereksinim_Dokumani.md](docs/Gereksinim_D
 Bu proje için detaylı içerikler doküman olarak tutulmuştur:
 - **Gereksinim Dokümanı:** [docs/Gereksinim_Dokumani.md](docs/Gereksinim_Dokumani.md)
 - **Test Caseler:** [docs/Test_Cases.md](docs/Test_Cases.md)
-- **BPMN Diyagram:** [docs/BPMN_diagram.md](docs/BPMN_diagram.md)
 
 
 
