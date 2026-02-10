@@ -248,7 +248,7 @@ Senaryoyu 6 gereksinime böldüm [docs/Gereksinim_Dokumani.md](docs/Gereksinim_D
 - CRM / Kişiler (portal/üye kurgusu)
 
 ## Dokümanlar
-Bu proje için detaylı içerikler doküman olarak tutulmuştur:
+Bu proje için detaylı içerikler doküman olarak sunulmuştur:
 - **Gereksinim Dokümanı:** [docs/Gereksinim_Dokumani.md](docs/Gereksinim_Dokumani.md)
 - **Test Caseler:** [docs/Test_Cases.md](docs/Test_Cases.md)
 
