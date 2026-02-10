@@ -214,7 +214,7 @@ Bu proje kapsamında:
 ---
 
 ## 📌 Proje 5: Odoo Demo Mini Case Study — ABC Mobile Ticaret
-*(Seri Numarası Takibi • Çoklu Para Birimi • Ürün Varyant Yönetimi • Fiyat Listeleri)*
+(Seri Numarası Takibi • Çoklu Para Birimi • Ürün Varyant Yönetimi • Fiyat Listeleri)
 
 ## Proje Özeti
 Bu çalışma, Odoo’nun demo ortamında iş senaryosunu mini bir case study yaklaşımıyla ele alarak kurgulamak ve doğrulamak amacıyla hazırlanmıştır.  
