@@ -55,7 +55,7 @@ Testler aşağıdaki başlıkları kapsar:
 ## TC-002 — Ürün Nitelikleri ile Varyant Oluşturma (renk + model)
 **Ön Koşullar**
 - Ürün kartına erişim var.
-- “Renk” ve “Model” nitelikleri tanımlı (veya tanımlanabilir).
+- “Renk” ve “Model” nitelikleri tanımlı/tanımlanabilir.
 
 **Adımlar**
 1. Stok/Ürünler’den ilgili ürün kartını aç (Özel ürün).
@@ -135,13 +135,16 @@ Testler aşağıdaki başlıkları kapsar:
 - Website’de giriş yapınca fiyat listesi “Üye (giriş yapan)” olur ve fiyatlar buna göre görünür.
 
 **Kanıt / Ek**
-- Ekran görüntüsü: Kontak kartı + Portal erişimi
-- Ekran görüntüsü: Fiyat listesi kuralı ekranı
-- Ekran görüntüsü: Website ürün listeleme sayfası (üye fiyatı görünen)
+ Ekran görüntüsü
+- [CRM Test Member Oluşturma](screenshots/CRM_Test_Member_Olusturma.png)
+- [Test Member Portal Erişim](screenshots/Test_Member_Portal_Erisim.png)
+- [Fiyat Listesi Farklılaştırma](screenshots/Farkli_fiyat_listesi.png)
+
+
 
 ---
 
-## 4. Test Sonuç Özeti (Opsiyonel)
-- Başarılı: TC-001, TC-002, ...
-- Kısmi/Limitli: (demo kısıtı nedeniyle)
-- Başarısız: ...
+## 4. Test Sonuç Özeti 
+- Başarılı: TC-001, TC-002, TC-003, TC-004
+- Kısmi/Limitli:TC-005(demo kısıtı nedeniyle)
+
