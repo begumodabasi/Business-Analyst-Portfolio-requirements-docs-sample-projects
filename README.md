@@ -252,7 +252,8 @@ Bu proje için detaylı içerikler doküman olarak tutulmuştur:
 - **Test Caseler:** `docs/Test_Caseler.pdf`
 - **BPMN Diyagram:** `docs/BPMN_Diagram.pdf` 
 
-> Not: Demo ortam kısıtları nedeniyle bazı doğrulamalar dokümanlarda “not/kısıt” olarak ayrıca belirtilmiştir
+## Not
+Bu çalışmanın senaryosu tarafıma ait değildir. Ancak senaryo üzerinden Odoo demo ortamında yapılan konfigürasyon çalışmaları, ekran görüntüleri ve dökümanların tamamı tarafıma aittir. Bu çalışma, ticari amaçlı değildir. Senaryonun içeriği özetlenmiş ve kişisel/veri gizliliği kapsamında marka/kurum/kişi bilgileri paylaşılmamıştır.
 
 
 ```
