@@ -213,6 +213,48 @@ Bu proje kapsamında:
 
 ---
 
+## 📌 Proje 5: Odoo Demo Mini Case Study — ABC Mobile Ticaret
+*(Seri Numarası Takibi • Çoklu Para Birimi • Ürün Varyant Yönetimi • Fiyat Listeleri)*
+
+## Proje Özeti
+Bu çalışma, Odoo’nun demo ortamında iş senaryosunu mini bir case study yaklaşımıyla ele alarak kurgulamak ve doğrulamak amacıyla hazırlanmıştır.  
+Amaç görsel olarak kapsamlı bir e-ticaret sitesi tasarlamak değil; senaryodaki gereksinimleri parçalara ayırıp uygun modülleri seçerek Odoo üzerinde konfigüre etmek ve küçük testlerle doğrulamaktır. Bu nedenle tema/görsel düzen tarafına sınırlı odaklanılmıştır.
+
+## Senaryo
+Cep telefonu ticareti yapan bir işletme için Odoo demo ortamında örnek bir kurgu oluşturuldu. İşletmenin temel ihtiyaçları:
+
+- E-ticaret sitesi kurgusu,
+- Ürünlerin **seri numarasıyla** izlenmesi,
+- **TRY (TL), USD ve GBP** para birimlerinin sistemde aktif olması,
+- Standart ürünlerin yanında 1 adet **özel ürünün** varyant yapısıyla yönetilmesi,
+- Web sitesinde **giriş yapan kullanıcı** ile **misafir kullanıcı** için TL bazında **farklı fiyat listesi** gösterilmesi.
+
+### Özel Ürün Varyant Kurgusu
+- **Renk:** Yeşil, Mavi, Beyaz  
+- **Model:** 15, 16, 17  
+- **Kısıtlar:**  
+  - Model 15’te **Mavi yok**  
+  - Model 17’de **Beyaz yok**
+
+## Yaklaşım
+Senaryoyu 6 gereksinime böldüm, ilgili modülleri seçip Odoo’da konfigüre ettim ve küçük testlerle doğruladım. 
+
+## Kullanılan Modüller
+- Web Sitesi / e-Ticaret
+- Stok
+- Satış
+- Muhasebe (para birimleri)
+- CRM / Kişiler (portal/üye kurgusu)
+
+## Dokümanlar
+Bu proje için detaylı içerikler doküman olarak tutulmuştur:
+- **Gereksinim Dokümanı:** `docs/Gereksinim_Dokumani.pdf`
+- **Test Caseler:** `docs/Test_Caseler.pdf`
+- **BPMN Diyagram:** `docs/BPMN_Diagram.pdf` 
+
+> Not: Demo ortam kısıtları nedeniyle bazı doğrulamalar dokümanlarda “not/kısıt” olarak ayrıca belirtilmiştir
+
+
 ```
 
 ---
