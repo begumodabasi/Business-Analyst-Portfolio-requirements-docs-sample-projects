@@ -217,8 +217,9 @@ Bu proje kapsamında:
 *(Seri Numarası Takibi • Çoklu Para Birimi • Ürün Varyant Yönetimi • Fiyat Listeleri)*
 
 ## Proje Özeti
-Bu çalışma, Odoo’nun demo ortamında iş senaryosunu mini bir case study yaklaşımıyla ele alarak kurgulamak ve doğrulamak amacıyla hazırlanmıştır.  
+Bu çalışma, Odoo’nun demo ortamında iş senaryosunu mini bir case study yaklaşımıyla ele alarak kurgulamak ve doğrulamak amacıyla hazırlanmıştır.
 Amaç görsel olarak kapsamlı bir e-ticaret sitesi tasarlamak değil; senaryodaki gereksinimleri parçalara ayırıp uygun modülleri seçerek Odoo üzerinde konfigüre etmek ve küçük testlerle doğrulamaktır. Bu nedenle tema/görsel düzen tarafına sınırlı odaklanılmıştır.
+Not: Bu çalışmanın senaryosu tarafıma ait değildir. Ancak senaryo üzerinden Odoo demo ortamında yapılan konfigürasyon çalışmaları, ekran görüntüleri ve dökümanların tamamı tarafıma aittir. Bu çalışma, ticari amaçlı değildir. Senaryonun içeriği özetlenmiş ve kişisel veri gizliliği kapsamında kurum/kişi bilgileri paylaşılmamıştır.
 
 ## Senaryo
 Cep telefonu ticareti yapan bir işletme için Odoo demo ortamında örnek bir kurgu oluşturuldu. İşletmenin temel ihtiyaçları:
@@ -252,8 +253,6 @@ Bu proje için detaylı içerikler doküman olarak tutulmuştur:
 - **Test Caseler:** `docs/Test_Caseler.pdf`
 - **BPMN Diyagram:** `docs/BPMN_Diagram.pdf` 
 
-## Not
-Bu çalışmanın senaryosu tarafıma ait değildir. Ancak senaryo üzerinden Odoo demo ortamında yapılan konfigürasyon çalışmaları, ekran görüntüleri ve dökümanların tamamı tarafıma aittir. Bu çalışma, ticari amaçlı değildir. Senaryonun içeriği özetlenmiş ve kişisel/veri gizliliği kapsamında marka/kurum/kişi bilgileri paylaşılmamıştır.
 
 
 ```
