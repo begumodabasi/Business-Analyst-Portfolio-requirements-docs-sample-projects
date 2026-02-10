@@ -110,7 +110,11 @@ Testler aşağıdaki başlıkları kapsar:
 - Seri numarası girildiğinde işlem tamamlanır ve her bir adet ayrı seri no ile izlenir.
 
 **Kanıt / Ek**
-- Ekran görüntüleri:
+ Ekran görüntüleri:
+- [Seri No Track1](screenshots/03_seri_no_track.png)
+- [Seri No Track2](screenshots/03_seri_no_track2.png)
+- [Seri No Track3](screenshots/03_seri_no_track3.png)
+- [Seri No Track4](screenshots/03_seri_no_zorunlu.png)
 
 ---
 
