@@ -238,7 +238,7 @@ Cep telefonu ticareti yapan bir işletme için Odoo demo ortamında örnek bir k
   - Model 17’de **Beyaz yok**
 
 ## Yaklaşım
-Senaryoyu 6 gereksinime böldüm [docs/Gereksinim_Dokumani.pdf](docs/Gereksinim_Dokumani.pdf) , ilgili modülleri seçip Odoo’da konfigüre ettim ve küçük testlerle doğruladım. 
+Senaryoyu 6 gereksinime böldüm [docs/Gereksinim_Dokumani.md](docs/Gereksinim_Dokumani.md) , ilgili modülleri seçip Odoo’da konfigüre ettim ve küçük testlerle doğruladım. 
 
 ## Kullanılan Modüller
 - Web Sitesi / e-Ticaret
@@ -249,7 +249,7 @@ Senaryoyu 6 gereksinime böldüm [docs/Gereksinim_Dokumani.pdf](docs/Gereksinim_
 
 ## Dokümanlar
 Bu proje için detaylı içerikler doküman olarak tutulmuştur:
-- **Gereksinim Dokümanı:** [docs/Gereksinim_Dokumani.pdf](docs/Gereksinim_Dokumani.pdf)
+- **Gereksinim Dokümanı:** [docs/Gereksinim_Dokumani.md](docs/Gereksinim_Dokumani.md)
 - **Test Caseler:** `docs/Test_Caseler.pdf`
 - **BPMN Diyagram:** `docs/BPMN_Diagram.pdf` 
 
